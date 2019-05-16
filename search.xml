@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[Hexo标题栏背景修改]]></title>
+    <url>%2F2019%2F05%2F16%2FHexo%E6%A0%87%E9%A2%98%E6%A0%8F%E8%83%8C%E6%99%AF%E4%BF%AE%E6%94%B9%2F</url>
+    <content type="text"><![CDATA[Hexo博客NexT主题美化之网站标题栏背景变色 修改样式内容 打开文件位置：themes\next\source\css_custom 加入以下代码 1234 **.site-meta &#123; background: #00BFFF; //颜色自己搭配&#125;** 更多颜色点这里： RGB颜色对照表 修改后效果如下： 个人博客链接： Jack_百岁山]]></content>
+  </entry>
+  <entry>
+    <title><![CDATA[QT5.12安装图文教程与安装成功后环境配置详细教程]]></title>
+    <url>%2F2019%2F05%2F16%2FQT5-12%E5%AE%89%E8%A3%85%E5%9B%BE%E6%96%87%E6%95%99%E7%A8%8B%E4%B8%8E%E5%AE%89%E8%A3%85%E6%88%90%E5%8A%9F%E5%90%8E%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E8%AF%A6%E7%BB%86%E6%95%99%E7%A8%8B%2F</url>
+    <content type="text"><![CDATA[Qt是一个完整的开发框架，其工具旨在简化桌面、嵌入式和移动平台的应用程序和用户界面的创建。非常多的公司喜欢用它来做界面。有很多的小伙伴们想要学习这门语言，但是目前网上的教程比较少，这里为大家介绍一下QT5.12安装的详细教程，希望对初学者有一定的帮助。 QT官方网址传送门,请戳这里QT官网进入官网，按如下图示进行相应的系统版本下载即可。 选择windows系统点击下载 下载完成后，打开文件夹，找到QT安装程序。启动安装程序，按如图步骤进行安装。默认安装路径为C盘，安装文件很大，如果C盘空间不是很充足，建议安装其他盘符中。如果硬盘空间允许情况下建议全选，以便日后使用。耐心等待即可，可以喝一杯茶去~至此，QT安装完成。复制QT的bin路径右键 我的电脑——属性——控制面板——高级系统设置点击 高级——环境变量选择系统变量，找到Path，点击编辑——新建，把bin路径粘贴进去，点击确定。至此，QT安装与环境配置已全部结束！]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[Hello World]]></title>
     <url>%2F2019%2F05%2F13%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+    <content type="text"><![CDATA[第一篇博客搭建 Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
   </entry>
 </search>
