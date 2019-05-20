@@ -79,18 +79,18 @@
 
 
 
-<meta name="description" content="position 属性的五个值：static:默认值relative:相对定位fixed:固定位置absolute:绝对定位sticky：粘性定位**">
+<meta name="description" content="position 属性的五个值：static:默认值     ——        relative:相对定位    ——        fixed:固定位置absolute:绝对定位    ——    sticky：粘性定位">
 <meta name="keywords" content="Java">
 <meta property="og:type" content="article">
 <meta property="og:title" content="CSS之Position">
 <meta property="og:url" content="http://yoursite.com/2019/05/20/CSS之Position/index.html">
 <meta property="og:site_name" content="Jack_百岁山">
-<meta property="og:description" content="position 属性的五个值：static:默认值relative:相对定位fixed:固定位置absolute:绝对定位sticky：粘性定位**">
+<meta property="og:description" content="position 属性的五个值：static:默认值     ——        relative:相对定位    ——        fixed:固定位置absolute:绝对定位    ——    sticky：粘性定位">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-05-20T06:13:20.140Z">
+<meta property="og:updated_time" content="2019-05-20T06:17:39.966Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="CSS之Position">
-<meta name="twitter:description" content="position 属性的五个值：static:默认值relative:相对定位fixed:固定位置absolute:绝对定位sticky：粘性定位**">
+<meta name="twitter:description" content="position 属性的五个值：static:默认值     ——        relative:相对定位    ——        fixed:固定位置absolute:绝对定位    ——    sticky：粘性定位">
 
 
 
@@ -415,7 +415,7 @@
       
 
       
-        <p>position 属性的五个值：<br>static:默认值<br>relative:相对定位<br>fixed:固定位置<br>absolute:绝对定位<br>sticky：粘性定位**</p>
+        <p>position 属性的五个值：<br>static:默认值     ——        relative:相对定位    ——        fixed:固定位置<br>absolute:绝对定位    ——    sticky：粘性定位</p>
 <a id="more"></a>
 <h2 id="position-属性"><a href="#position-属性" class="headerlink" title="position 属性"></a>position 属性</h2><p><strong>position 属性指定了元素的定位类型。<br>position 属性的五个值：<br>static:默认值<br>relative:相对定位<br>fixed:固定位置<br>absolute:绝对定位<br>sticky：粘性定位</strong></p>
 <h2 id="HTML实例"><a href="#HTML实例" class="headerlink" title="HTML实例"></a>HTML实例</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br></pre></td><td class="code"><pre><span class="line">&lt;!DOCTYPE html&gt;</span><br><span class="line">&lt;html&gt;</span><br><span class="line">&lt;head&gt;</span><br><span class="line">&lt;meta charset=&quot;UTF-8&quot; /&gt;</span><br><span class="line">&lt;title&gt;position&lt;/title&gt;</span><br><span class="line">&lt;style type=&quot;text/css&quot;&gt;</span><br><span class="line">*&#123;margin:0;padding:0;&#125;</span><br><span class="line">.clearfix:before,.clearfix:after &#123;content:&quot;&quot;;display:table;&#125;</span><br><span class="line">.clearfix:after &#123;clear:both;overflow:hidden;&#125;</span><br><span class="line">.clearfix &#123;zoom:1;&#125;</span><br><span class="line">.mgt20&#123;margin-top:20px;&#125;</span><br><span class="line">.w1000&#123;width:1000px;margin:0 auto;min-height:1900px;&#125;</span><br><span class="line"></span><br><span class="line">#demo&#123;  </span><br><span class="line">    position:relative;  </span><br><span class="line">    border:1px solid #000;  </span><br><span class="line">    margin-top:50px;</span><br><span class="line">    top:-50px;  </span><br><span class="line">    line-height:18px; </span><br><span class="line">&#125; </span><br><span class="line">.static,.fixed,.absolute,.relative&#123;  </span><br><span class="line">    width:200px;      </span><br><span class="line">&#125;  </span><br><span class="line">.relative&#123;  </span><br><span class="line">    position:relative;  </span><br><span class="line">    left:150px;  </span><br><span class="line">    top:-20px;  </span><br><span class="line">    background-color:#ffe4e1;  </span><br><span class="line">&#125;</span><br><span class="line">.static&#123;   </span><br><span class="line">    position:static; </span><br><span class="line">    background-color:#bbb;    </span><br><span class="line">&#125;  </span><br><span class="line">.fixed&#123;  </span><br><span class="line">    position:fixed;  </span><br><span class="line">    top:200px;</span><br><span class="line">    left:50%;</span><br><span class="line">    margin-left:-500px;</span><br><span class="line">    background-color:#ffc0cb;</span><br><span class="line">&#125;  </span><br><span class="line">.absolute&#123; </span><br><span class="line">    position:absolute;  </span><br><span class="line">    right:10px;  </span><br><span class="line">    top:10px;  </span><br><span class="line">    background-color:#b0c4de;  </span><br><span class="line">&#125; </span><br><span class="line">&lt;/style&gt;</span><br><span class="line">&lt;/head&gt;</span><br><span class="line">&lt;body&gt;</span><br><span class="line">&lt;div class=&quot;w1000&quot;&gt;</span><br><span class="line">    &lt;div class=&quot;mgt20 clearfix&quot;&gt;</span><br><span class="line">        &lt;div id=&quot;demo&quot; class=&quot;clearfix&quot;&gt;  </span><br><span class="line">            &lt;div class=&quot;static&quot;&gt;static: 默认值。无特殊定位，对象遵循HTML定位规则 &lt;/div&gt;  </span><br><span class="line">            &lt;div class=&quot;absolute&quot;&gt;absolute: 将对象从文档流中拖出,使用left,right,top,bottom 等属性相对于其最接近的一个最有定位设置的父对象进行绝对定位。如果不存在这样的父对象,则依据body对象。而其层叠通过z-index属性定义 &lt;/div&gt;  </span><br><span class="line">            &lt;div class=&quot;fixed&quot;&gt;fixed属性的说明：fixed总是以body为定位时的对象，总是根据浏览器的窗口来进行元素的定位，通过&quot;left&quot;、 &quot;top&quot;、 &quot;right&quot;、&quot;bottom&quot; 属性进行定位。&lt;/div&gt;  </span><br><span class="line">            &lt;div class=&quot;relative&quot;&gt;relative1:对象不可层叠，对象原来占有的位置保留,但将依据 left,right,top,bottom 等属性在正常文档流中偏移位置 &lt;/div&gt; </span><br><span class="line">        &lt;/div&gt; </span><br><span class="line">    &lt;/div&gt;    </span><br><span class="line">&lt;/div&gt;</span><br><span class="line">&lt;/body&gt;</span><br><span class="line">&lt;/html&gt;</span><br></pre></td></tr></table></figure>
@@ -520,6 +520,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2019/05/20/MW01/" rel="prev" title="岁月的灯，红尘的人">
+                岁月的灯，红尘的人 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -627,7 +631,7 @@ var jiathis_config={
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-count">5</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -638,7 +642,7 @@ var jiathis_config={
               
               <div class="site-state-item site-state-categories">
                 
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">分类</span>
                 
               </div>
@@ -649,7 +653,7 @@ var jiathis_config={
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">3</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -732,7 +736,7 @@ var jiathis_config={
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">3.5k</span>
+    <span title="Site words total count">4.4k</span>
   
   -->
 </div>
@@ -748,7 +752,7 @@ var jiathis_config={
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">全站共3.5k字</span>
+  <span class="post-count">全站共4.4k字</span>
 </div>
 
 <span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span>
